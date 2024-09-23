@@ -1,7 +1,12 @@
+import NavBar from '../components/NavBar';
+import GameList from '../components/GameList';
 
 function Homepage() {
     return (
-        <h1>hi</h1>
+        <div className="pageContainer">
+            <NavBar />
+            <GameList />
+        </div>
     )
 }
 
