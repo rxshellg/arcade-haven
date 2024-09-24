@@ -2,7 +2,7 @@ import { Card } from "react-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const GameInfoCard = ({ icon, title, content }) => (
-    <Card className="mb-3" style={{height: '122px'}}>
+    <Card className="mb-3" style={{height: '122px', backgroundColor: "#0c062e", color: "#B6A9AF", border: "1px solid lightgray"}}>
         <Card.Body>
             <div className="d-flex align-items-center">
                 <FontAwesomeIcon icon={icon} className="me-2" />
