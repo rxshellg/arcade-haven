@@ -44,19 +44,19 @@
 
 .pagination .page-link {
   color: #B6A9AF;
-  background-color: #23143c; /* Change to your desired color for non-active links */
+  background-color: #23143c;
 }
 
 .pagination .page-link:hover {
-  color: white; /* Change to the desired hover color */
+  color: white;
 }
 
 .pagination .page-item.active .page-link {
-  background-color:#35143c; /* Set your desired purple color */
-  border-color: lightgray; /* Match the border color */
-  color: white; /* Set text color for better contrast */
+  background-color:#35143c;
+  border-color: lightgray;
+  color: white;
 }
 
 .pagination .page-item.active .page-link:hover {
-  background-color: #b31589; /* Optional: darker shade on hover */
+  background-color: #b31589;
 }
