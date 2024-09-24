@@ -1,3 +1,13 @@
+.homeContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+    margin-bottom: 50px;
+    color: white;
+    padding: 20px;
+    width: 80%;
+}
+
 .game-card {
   position: relative;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -59,4 +69,9 @@
 
 .pagination .page-item.active .page-link:hover {
   background-color: #b31589;
+}
+
+.searchBar {
+  color: #B6A9AF;
+  background-color: #23143c;
 }
