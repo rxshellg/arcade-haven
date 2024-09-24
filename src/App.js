@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Homepage from './pages/Homepage';
 import DetailPage from './pages/DetailPage'
+import PlayNowPage from './pages/PlayNowPage';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Homepage />} />
           <Route path='/game/:id' element={<DetailPage />} />
+          <Route path="/play-now" element={<PlayNowPage />} />
       </Routes>
       </BrowserRouter>
     </>
