@@ -12,8 +12,6 @@ const NavBar = () => {
                 </div>
                 <div className="links">
                     <Link to="/" id="header-element"> Home page </Link>
-                    <Link to="/" id="header-element"> Leaderboards </Link>
-                    <Link to="" id="header-element"> Community </Link>
                     <Link to="/" id="header-element"> Play now </Link>
                     <Link to="/" id="header-element"> Contact </Link>
                 </div>
