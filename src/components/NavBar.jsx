@@ -50,6 +50,7 @@ const NavBar = () => {
                     <Link to="/" id="header-element"> Home page </Link>
                     <Link to="/play-now" id="header-element"> Play now </Link>
                     <Link to="/contact" id="header-element"> Contact </Link>
+                    <Link to="/leaderboard" id="header-element">Leaderboard</Link>
                     {isAuthenticated ? (
                         <Dropdown>
                             <Dropdown.Toggle variant="secondary" id="dropdown-basic" className="user-dropdown">

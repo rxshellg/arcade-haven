@@ -6,7 +6,7 @@ const getLeaderboard = async (req, res) => {
     const leaderboard = await Leaderboard.findAll({
       include: {
         model: User,
-        attributes: ['username']
+        attributes: ['displayName']
       },
       order: [['totalReviews', 'DESC']],
     });
@@ -26,7 +26,7 @@ const getUserLeaderboard = async (req, res) => {
       where: { userId },
       include: {
         model: User,
-        attributes: ['username']
+        attributes: ['displayName']
       }
     });
 

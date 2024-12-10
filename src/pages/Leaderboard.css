@@ -1,0 +1,37 @@
+.outsideContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.leaderboard-container {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    background-color: #23143c; ;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+thead {
+    background-color: #343a40;
+    color: white;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #e9ecef;
+}
+
+.highlighted {
+    background-color: #ffd700;
+    font-weight: bold;
+}
