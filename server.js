@@ -72,6 +72,22 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 
+app.get('/auth/session', (req, res) => {
+  if (req.isAuthenticated()) {
+      res.json({
+          isAuthenticated: true,
+          user: {
+              displayName: req.user.displayName,
+          },
+      });
+  } else {
+      res.json({
+          isAuthenticated: false,
+          user: null,
+      });
+  }
+});
+
 const init = async () => {
   try {
     await sequelize.sync();
