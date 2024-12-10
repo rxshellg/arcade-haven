@@ -4,6 +4,7 @@ import Homepage from './pages/Homepage';
 import DetailPage from './pages/DetailPage'
 import PlayNowPage from './pages/PlayNowPage';
 import ContactPage from './pages/ContactPage.tsx';
+import Leaderboard from './pages/Leaderboard.tsx';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path='/game/:id' element={<DetailPage />} />
           <Route path="/play-now" element={<PlayNowPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/leaderboard" element={<Leaderboard />} />
       </Routes>
       </BrowserRouter>
     </>
