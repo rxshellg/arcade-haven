@@ -1,0 +1,12 @@
+{
+  "name": "arcade-haven",
+  "version": "1.0.0",
+  "description": "Arcade Haven is a place where nostalgia meets excitement! Dive into a vibrant world of classic and new arcade games that promise endless fun and challenge. Whether you’re a seasoned gamer or a newcomer to the arcade scene, Arcade Haven has something for everyone.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
