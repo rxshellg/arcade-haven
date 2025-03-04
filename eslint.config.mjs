@@ -7,6 +7,7 @@ export default [
   { files: ["**/*.{js,mjs,cjs,jsx}"] },
   { files: ["**/*.js"], languageOptions: { sourceType: "module" } },
   { languageOptions: { globals: { ...globals.browser, ...globals.node, ...globals.jest } } },
+  { ignores: ["dist/**", "node_modules/**"],},
   pluginJs.configs.recommended,
   pluginReact.configs.flat.recommended,
   {
