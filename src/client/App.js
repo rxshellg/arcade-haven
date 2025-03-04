@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Suspense, lazy } from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Homepage = lazy(() => import("./pages/Homepage.jsx"));
 const DetailPage = lazy(() => import("./pages/DetailPage"));
