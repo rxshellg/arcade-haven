@@ -1,0 +1,30 @@
+.contentContainer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.bigContentContainer {
+    background-color: #23143c; ;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+    width: 70%;
+}
+
+.smallContentContainer {
+    background-color: #23143c; ;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+    width: 20%;
+    margin-right: 20px;
+}
+
+.gameInfoCards {
+    height: 300px;
+}
