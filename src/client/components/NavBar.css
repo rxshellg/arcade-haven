@@ -1,0 +1,30 @@
+.header {
+    background-color: #23143c;
+    display:flex;
+    align-items: center;
+    height: 50px;
+}
+  
+#header-element {
+    color: #B6A9AF;
+    text-decoration: none;
+}
+  
+#header-element:hover {
+    color: white;
+}
+
+.logo img {
+    width: 40px;
+    height: 43px;
+    flex: 1;
+    margin-left: 3px;
+}
+  
+.links {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-around;
+    font-size: 1rem; 
+    margin-left: 650px;
+}

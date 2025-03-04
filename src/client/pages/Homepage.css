@@ -1,0 +1,77 @@
+.homeContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+      margin-bottom: 50px;
+      color: white;
+      padding: 20px;
+      width: 80%;
+}
+  
+.game-card {
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+    
+.game-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+    
+.game-card-body {
+    position: relative;
+    z-index: 2;
+}
+    
+.game-card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    overflow: auto;
+}
+  
+.game-card-overlay::-webkit-scrollbar {
+    display: none;
+}
+  
+.game-card:hover .game-card-overlay {
+    opacity: 1;
+    visibility: visible;
+}
+  
+.pagination .page-link {
+    color: #B6A9AF;
+    background-color: #23143c;
+}
+  
+.pagination .page-link:hover {
+    color: white;
+}
+  
+.pagination .page-item.active .page-link {
+    background-color:#35143c;
+    border-color: lightgray;
+    color: white;
+}
+  
+.pagination .page-item.active .page-link:hover {
+    background-color: #b31589;
+}
+  
+.searchBar {
+    color: #B6A9AF;
+    background-color: #23143c;
+}
